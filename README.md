@@ -4,7 +4,7 @@
 * Built a Random Forest Classifier model to compare the CNN results with.
 * Optimized the Random Forest model with RandomizedSearchCV to reach the best model.
 
-<img src="https://github.com/andreasbergstrm/Fashion-Image-Recognition-with-CNN/blob/main/fashion_mnist.png" width="622" height="500" />
+<img src="https://github.com/andreasbergstrm/Fashion-Image-Recognition-with-CNN/blob/main/fashion_mnist.png" width="559" height="450" />
 
 ## Code and Resources Used
 

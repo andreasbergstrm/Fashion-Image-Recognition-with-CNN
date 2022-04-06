@@ -1,5 +1,8 @@
 # Fashion Image Recognition with Convolutional Neural Network
 ## Overview
+* Created a Convolutional Neural Network (CNN) to classify images from the Fashion MNIST dataset.
+* Built a Random Forest Classifier model to compare the CNN results with.
+* Optimized the Random Forest model with RandomizedSearchCV to reach the best model.
 
 ![](fashion_mnist.png)
 

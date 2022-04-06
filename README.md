@@ -6,7 +6,7 @@
 
 ![](fashion_mnist.png)
 
-<img src="https://github.com/andreasbergstrm/Fashion-Image-Recognition-with-CNN/blob/main/fashion_mnist.png" width="600" height="400" />
+<img src="https://github.com/andreasbergstrm/Fashion-Image-Recognition-with-CNN/blob/main/fashion_mnist.png" width="497" height="400" />
 
 ## Code and Resources Used
 

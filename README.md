@@ -6,6 +6,8 @@
 
 ![](fashion_mnist.png)
 
+<img src="https://github.com/andreasbergstrm/Fashion-Image-Recognition-with-CNN/blob/main/fashion_mnist.png" width="200" height="400" />
+
 ## Code and Resources Used
 
 **Programming Language:** Python  

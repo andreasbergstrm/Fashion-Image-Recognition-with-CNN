@@ -1,4 +1,4 @@
-# Fashion-Image-Recognition-with-CNN
+# Fashion Image Recognition with Convolutional Neural Network
 ## Overview
 
 ![](fashion_mnist.png)
@@ -11,23 +11,14 @@
 
 ## Model Building
 
-First I scaled the feature data to improve the training of the models, then I split the data into training and test sets with the test set percentage being 33%. Then I trained three models to compare and find the best model.
-
-The three different models were:
-* **Multinomial Logistic Regression** - A comparative baseline model.
-* **Random Forest Classifier** - Since higher and lower qualities were relatively rare in the data, I thought the Random Forest model could deal well with this sparsity.
-* **Decision Tree Classifier** - Simple to understand and interpret, while usually performing well in classification problems.
-
-Then I used grid search cross-validation to tune the hyperparameters and reach the best model.
+When I imported the fashion_mnist data set I split the data directly into training and test splits. Then I reshaped the data to be appropriate for the CNN and normalized the data for more efficient training. Then I created the CNN with categorical_crossentropy as the loss function, the adam optimzier and accuracy as the evaluation metric. After fitting the data for 10 epochs I plotted the training history to show the train/test model accuracy and loss.  
 
 ![](CNN_history.png)
 
+To compare the CNN results I also created a Random Forest classifier model. I used RandomizedSearchCV to tune the hyperparameters and reach the best model.
+
 ## Model Performance
 
-The Random Forest classifier outperformed the other models since it had the highest accuracy by far.
-
-* **Random Forest:** Accuracy = 67% 
-* **Multinomial Logistic Regression:** Accuracy = 63% 
-* **Decision Tree:** Accuracy = 56%   
-
-
+The Convolutional Neural Net outperformed the Random Forest by about four percent accuracy. 
+* **Convolutional Neural Network:** Accuracy = 91% 
+* **Random Forest:** Accuracy = 87%

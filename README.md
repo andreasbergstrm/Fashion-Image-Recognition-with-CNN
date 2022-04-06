@@ -6,9 +6,8 @@
 ## Code and Resources Used
 
 **Programming Language:** Python  
-**Packages:** tensorflow, keras, matplotlib, scikit-learn
+**Packages:** tensorflow, keras, matplotlib, scikit-learn  
 **Dataset Source:** Fashion MNIST dataset imported from keras
-
 
 ## Model Building
 
